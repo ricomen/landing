@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  basePath: "/landing-page",
   output: "export",
-  images: {
-    unoptimized: true,
-  },
   reactStrictMode: true,
 };
 
